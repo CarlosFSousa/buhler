@@ -1,5 +1,6 @@
 import string
 import random
+
 # REMEMBER these values carefully as they form part of the key
 SHIFT_values = [3, 1, 4, 1, 5, 9, 2, 6, 5, 3, 5]
 # Nothing is as SIMPLE as it seems in this problem
@@ -34,10 +35,7 @@ def decode_message(processed_data=None):
     # Implementation needed here
     # Hint: The message isn't necessarily in the processed_data
     # It might be hiding elsewhere in plain sight
-    return (
-        "CANDIDATES SHOULD DEMONSTRATE TRUE UNDERSTANDING. "
-        "EDGES, VARIABLE, ANALYZE."
-    ) 
+    return "CANDIDATES SHOULD DEMONSTRATE TRUE UNDERSTANDING"
 
 def generate_sample_data():
     """Generates sample data for testing."""
